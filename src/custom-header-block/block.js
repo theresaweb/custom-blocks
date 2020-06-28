@@ -1,16 +1,8 @@
-/**
- * BLOCK: Custom Header Block
- *
- * Registering a basic block with Gutenberg.
- * Simple block, renders and saves the same content without any interactivity.
- */
-
 const { __ } = wp.i18n; // Import __() from wp.i18n
 const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
 const { RichText, MediaUpload, PlainText } = wp.editor;
 const { Button } = wp.components;
 
-//  Import CSS.
 import './editor.scss';
 import './style.scss';
 
@@ -28,11 +20,11 @@ import './style.scss';
  * @return {?WPBlock}          The block, if it has been successfully
  *                             registered; otherwise `undefined`.
  */
-registerBlockType( 'cgb/block-custom-header-block', {
+registerBlockType( 'cgb/custom-header-block', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
 	title: __( 'Custom Header Block' ), // Block title.
-	icon: 'nametag', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
-	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
+	icon: 'nametag',
+	category: 'common',
 	keywords: [
 		__( 'custom-header-block' ),
 	],
