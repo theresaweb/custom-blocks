@@ -20,9 +20,8 @@ import './style.scss';
  * @return {?WPBlock}          The block, if it has been successfully
  *                             registered; otherwise `undefined`.
  */
-registerBlockType( 'cgb/custom-header-block', {
-	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
-	title: __( 'Custom Header Block' ), // Block title.
+registerBlockType( 'cgb/qa-repeater-block', {
+	title: __( 'QA Block' ),
 	icon: 'nametag',
 	category: 'common',
 	keywords: [

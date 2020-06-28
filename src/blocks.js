@@ -10,3 +10,4 @@
  */
 
 import './custom-header-block/block.js';
+import './qa-repeater-block/block.js';
