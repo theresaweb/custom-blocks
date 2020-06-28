@@ -1,18 +1,9 @@
-/**
- * #.# Common SCSS
- *
- * Can include things like variables and mixins
- * that are used across the project.
-*/
+/*
+ * Common SCSS can contain your common variables, helpers and mixins
+ * that are shared between all of your blocks.
+ */
 /**
  * #.# Styles
  *
  * CSS for both Frontend+Backend.
  */
-.wp-block-cgb-block-custom-header-block {
-  background: orangered;
-  border: 0.2rem solid #292929;
-  color: #292929;
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem; }
